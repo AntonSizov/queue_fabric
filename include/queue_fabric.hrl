@@ -1,27 +1,27 @@
 -ifndef(queue_fabric_hrl).
 -define(queue_fabric_hrl, defined).
 
--define(justControlQ, <<"pmm.just.control">>).
--define(justGtwQPrefix, <<"pmm.just.gateway">>).
--define(receiptSmsQ, <<"pmm.mmwl.receipt.sms">>).
--define(responseSmsQ, <<"pmm.mmwl.response.sms">>).
--define(incomingSmsQ, <<"pmm.mmwl.incoming.sms">>).
+-define(JUST_CONTROL_Q, <<"pmm.just.control">>).
+-define(JUST_GTW_Q_PREFIX, <<"pmm.just.gateway">>).
+-define(RECEIPT_SMS_Q, <<"pmm.mmwl.receipt.sms">>).
+-define(RESPONSE_SMS_Q, <<"pmm.mmwl.response.sms">>).
+-define(INCOMING_SMS_Q, <<"pmm.mmwl.incoming.sms">>).
 
--define(funnelAuthQ, <<"pmm.mmwl.funnel_auth">>).
--define(funnelBatchesQ, <<"pmm.mmwl.funnel_batches">>).
--define(funnelEventsQ, <<"pmm.mmwl.funnel_events">>).
--define(funnelControlQ, <<"pmm.funnel.server_control">>).
--define(funnelNodeQPrefix, <<"pmm.funnel.nodes">>).
+-define(FUNNEL_AUTH_Q, <<"pmm.mmwl.funnel_auth">>).
+-define(FUNNEL_BATCHES_Q, <<"pmm.mmwl.funnel_batches">>).
+-define(FUNNEL_EVENTS_Q, <<"pmm.mmwl.funnel_events">>).
+-define(FUNNEL_CONTROL_Q, <<"pmm.funnel.server_control">>).
+-define(FUNNEL_NODE_Q_PREFIX, <<"pmm.funnel.nodes">>).
 
--define(k1apiAuthReqQ, <<"pmm.k1api.auth_request">>).
--define(k1apiAuthRespQ, <<"pmm.k1api.auth_response">>).
--define(k1apiDeliveryStatusReqQ, <<"pmm.k1api.delivery_status_request">>).
--define(k1apiDeliveryStatusRespQ, <<"pmm.k1api.delivery_status_response">>).
--define(k1apiIncomingQ, <<"pmm.k1api.incoming">>).
--define(k1apiRetrieveSmsReqQ, <<"pmm.k1api.retrieve_sms_request">>).
--define(k1apiRetrieveSmsRespQ, <<"pmm.k1api.retrieve_sms_response">>).
--define(k1apiSmsReqQ, <<"pmm.k1api.sms_request">>).
--define(k1apiSubscriptionReqQ, <<"pmm.k1api.subscription_request">>).
--define(k1apiSubscriptionRespQ, <<"pmm.k1api.subscription_response">>).
+-define(K1API_AUTH_REQ_Q, <<"pmm.k1api.auth_request">>).
+-define(K1API_AUTH_RESP_Q, <<"pmm.k1api.auth_response">>).
+-define(K1API_DELIVERY_STATUS_REQ_Q, <<"pmm.k1api.delivery_status_request">>).
+-define(K1API_DELIVERY_STATUS_RESP_Q, <<"pmm.k1api.delivery_status_response">>).
+-define(K1API_INCOMING_Q, <<"pmm.k1api.incoming">>).
+-define(K1API_RETRIEVE_SMS_REQ_Q, <<"pmm.k1api.retrieve_sms_request">>).
+-define(K1API_RETRIEVE_SMS_RESP_Q, <<"pmm.k1api.retrieve_sms_response">>).
+-define(K1API_SMS_REQ_Q, <<"pmm.k1api.sms_request">>).
+-define(K1API_SUBSCRIPTION_REQ_Q, <<"pmm.k1api.subscription_request">>).
+-define(K1API_SUBSCRIPTION_RESP_Q, <<"pmm.k1api.subscription_response">>).
 
 -endif. % queue_fabric_hrl
