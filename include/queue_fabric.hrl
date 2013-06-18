@@ -23,5 +23,6 @@
 -define(K1API_SMS_REQ_Q, <<"pmm.k1api.sms_request">>).
 -define(K1API_SUBSCRIPTION_REQ_Q, <<"pmm.k1api.subscription_request">>).
 -define(K1API_SUBSCRIPTION_RESP_Q, <<"pmm.k1api.subscription_response">>).
+-define(K1API_CONTROL_Q, <<"k1api.control">>).
 
 -endif. % queue_fabric_hrl
