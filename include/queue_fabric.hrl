@@ -3,21 +3,21 @@
 
 -define(JUST_CONTROL_Q, <<"pmm.just.control">>).
 -define(JUST_GTW_Q_PREFIX, <<"pmm.just.gateway">>).
--define(RECEIPT_SMS_Q, <<"pmm.receipt.sms">>).
--define(RESPONSE_SMS_Q, <<"pmm.response.sms">>).
--define(INCOMING_SMS_Q, <<"pmm.incoming.sms">>).
+-define(RECEIPT_SMS_Q, <<"pmm.just.receipt_sms">>).
+-define(RESPONSE_SMS_Q, <<"pmm.just.sms_response">>).
+-define(INCOMING_SMS_Q, <<"pmm.just.incoming_sms">>).
 
--define(FUNNEL_AUTH_Q, <<"pmm.funnel_auth">>).
--define(FUNNEL_BATCHES_Q, <<"pmm.funnel_batches">>).
--define(FUNNEL_EVENTS_Q, <<"pmm.funnel_events">>).
--define(FUNNEL_CONTROL_Q, <<"pmm.funnel.server_control">>).
+-define(FUNNEL_AUTH_Q, <<"pmm.funnel.auth">>).
+-define(FUNNEL_BATCHES_Q, <<"pmm.funnel.sms_request">>).
+-define(FUNNEL_EVENTS_Q, <<"pmm.funnel.events">>).
+-define(FUNNEL_CONTROL_Q, <<"pmm.funnel.control">>).
 -define(FUNNEL_NODE_Q_PREFIX, <<"pmm.funnel.nodes">>).
 
 -define(K1API_AUTH_REQ_Q, <<"pmm.http.auth_request">>).
 -define(K1API_AUTH_RESP_Q, <<"pmm.k1api.auth_response">>).
 -define(K1API_DELIVERY_STATUS_REQ_Q, <<"pmm.http.delivery_status_request">>).
 -define(K1API_DELIVERY_STATUS_RESP_Q, <<"pmm.k1api.delivery_status_response">>).
--define(K1API_INCOMING_Q, <<"pmm.k1api.incoming">>).
+-define(K1API_INCOMING_Q, <<"pmm.k1api.incoming_sms">>).
 -define(K1API_RETRIEVE_SMS_REQ_Q, <<"pmm.k1api.retrieve_sms_request">>).
 -define(K1API_RETRIEVE_SMS_RESP_Q, <<"pmm.k1api.retrieve_sms_response">>).
 -define(K1API_SMS_REQ_Q, <<"pmm.http.sms_request">>).
