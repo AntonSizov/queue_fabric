@@ -3,13 +3,13 @@
 
 -define(JUST_CONTROL_Q, <<"pmm.just.control">>).
 -define(JUST_GTW_Q_PREFIX, <<"pmm.just.gateway">>).
--define(RECEIPT_SMS_Q, <<"pmm.mmwl.receipt.sms">>).
--define(RESPONSE_SMS_Q, <<"pmm.mmwl.response.sms">>).
--define(INCOMING_SMS_Q, <<"pmm.mmwl.incoming.sms">>).
+-define(RECEIPT_SMS_Q, <<"pmm.receipt.sms">>).
+-define(RESPONSE_SMS_Q, <<"pmm.response.sms">>).
+-define(INCOMING_SMS_Q, <<"pmm.incoming.sms">>).
 
--define(FUNNEL_AUTH_Q, <<"pmm.mmwl.funnel_auth">>).
--define(FUNNEL_BATCHES_Q, <<"pmm.mmwl.funnel_batches">>).
--define(FUNNEL_EVENTS_Q, <<"pmm.mmwl.funnel_events">>).
+-define(FUNNEL_AUTH_Q, <<"pmm.funnel_auth">>).
+-define(FUNNEL_BATCHES_Q, <<"pmm.funnel_batches">>).
+-define(FUNNEL_EVENTS_Q, <<"pmm.funnel_events">>).
 -define(FUNNEL_CONTROL_Q, <<"pmm.funnel.server_control">>).
 -define(FUNNEL_NODE_Q_PREFIX, <<"pmm.funnel.nodes">>).
 
