@@ -66,6 +66,11 @@
 
 
 -define(SOAP_CONTROL_Q, <<"pmm.soap.control">>).
+-define(SOAP_CONTROL_Q_SPEC,
+	#'queue.declare'{
+		queue = ?SOAP_CONTROL_Q,
+		durable = true % to save cache purge requests
+	}).
 -define(SOAP_INCOMING_Q, <<"pmm.soap.incoming">>).
 -define(SOAP_DELIVERY_STATUS_RESP_Q, <<"pmm.soap.delivery_status_response">>).
 -define(SOAP_DELIVERY_STATUS_REQ_Q, ?K1API_DELIVERY_STATUS_REQ_Q).
